@@ -42,7 +42,7 @@ Description: QML wrapper for bluez
  .
  It is used by the KDE Bluetooth stack, BlueDevil.
 
-Package: libkf5people-dbg
+Package: libkf5bluezqt5-dbg
 Priority: extra
 Section: debug
 Architecture: any
