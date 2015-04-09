@@ -2,7 +2,8 @@ Source: bluez-qt
 Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: cmake,
+               debhelper (>= 9),
                extra-cmake-modules,
                pkg-kde-tools (>> 0.15.15),
                qml-module-qttest,
