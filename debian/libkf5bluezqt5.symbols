@@ -1,5 +1,30 @@
-# SymbolsHelper-Confirmed: 5.2.50 amd64
+# SymbolsHelper-Confirmed: 5.2.50+git20150418.1234+15.04 amd64 i386
 libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
+ _ZN7BluezQt11MediaPlayer10setShuffleENS0_7ShuffleE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer11fastForwardEv@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer11nameChangedERK7QString@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer11qt_metacastEPKc@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer12setEqualizerENS0_9EqualizerE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer12trackChangedERKNS0_5TrackE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer13repeatChangedENS0_6RepeatE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer13statusChangedENS0_6StatusE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer14shuffleChangedENS0_7ShuffleE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer15positionChangedEj@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer16equalizerChangedENS0_9EqualizerE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer16staticMetaObjectE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer4nextEv@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer4playEv@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer4stopEv@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer5pauseEv@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer6rewindEv@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer8previousEv@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer9setRepeatENS0_6RepeatE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayerC1ERK7QStringRK4QMapIS1_8QVariantE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayerC2ERK7QStringRK4QMapIS1_8QVariantE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayerD0Ev@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayerD1Ev@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayerD2Ev@Base 5.2.50+git20150418.1234+15.04
  _ZN7BluezQt11ObexManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50
  _ZN7BluezQt11ObexManager11qt_metacastEPKc@Base 5.2.50
  _ZN7BluezQt11ObexManager12startServiceEv@Base 5.2.50
@@ -167,6 +192,7 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZN7BluezQt6Device17disconnectProfileERK7QString@Base 5.2.50
  _ZN7BluezQt6Device17remoteNameChangedERK7QString@Base 5.2.50
  _ZN7BluezQt6Device18deviceClassChangedEj@Base 5.2.50
+ _ZN7BluezQt6Device18mediaPlayerChangedE14QSharedPointerINS_11MediaPlayerEE@Base 5.2.50+git20150418.1234+15.04
  _ZN7BluezQt6Device19friendlyNameChangedERK7QString@Base 5.2.50
  _ZN7BluezQt6Device20legacyPairingChangedEb@Base 5.2.50
  _ZN7BluezQt6Device4pairEv@Base 5.2.50
@@ -307,6 +333,15 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZN7BluezQt9ObexAgent7releaseEv@Base 5.2.50
  _ZN7BluezQt9ObexAgentC1EP7QObject@Base 5.2.50
  _ZN7BluezQt9ObexAgentC2EP7QObject@Base 5.2.50
+ _ZNK7BluezQt11MediaPlayer10metaObjectEv@Base 5.2.50+git20150418.1234+15.04
+ _ZNK7BluezQt11MediaPlayer11toSharedPtrEv@Base 5.2.50+git20150418.1234+15.04
+ _ZNK7BluezQt11MediaPlayer4nameEv@Base 5.2.50+git20150418.1234+15.04
+ _ZNK7BluezQt11MediaPlayer5trackEv@Base 5.2.50+git20150418.1234+15.04
+ _ZNK7BluezQt11MediaPlayer6repeatEv@Base 5.2.50+git20150418.1234+15.04
+ _ZNK7BluezQt11MediaPlayer6statusEv@Base 5.2.50+git20150418.1234+15.04
+ _ZNK7BluezQt11MediaPlayer7shuffleEv@Base 5.2.50+git20150418.1234+15.04
+ _ZNK7BluezQt11MediaPlayer8positionEv@Base 5.2.50+git20150418.1234+15.04
+ _ZNK7BluezQt11MediaPlayer9equalizerEv@Base 5.2.50+git20150418.1234+15.04
  _ZNK7BluezQt11ObexManager10metaObjectEv@Base 5.2.50
  _ZNK7BluezQt11ObexManager13isInitializedEv@Base 5.2.50
  _ZNK7BluezQt11ObexManager13isOperationalEv@Base 5.2.50
@@ -362,6 +397,7 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZNK7BluezQt6Device10remoteNameEv@Base 5.2.50
  _ZNK7BluezQt6Device11deviceClassEv@Base 5.2.50
  _ZNK7BluezQt6Device11isConnectedEv@Base 5.2.50
+ _ZNK7BluezQt6Device11mediaPlayerEv@Base 5.2.50+git20150418.1234+15.04
  _ZNK7BluezQt6Device11toSharedPtrEv@Base 5.2.50
  _ZNK7BluezQt6Device12friendlyNameEv@Base 5.2.50
  _ZNK7BluezQt6Device16hasLegacyPairingEv@Base 5.2.50
@@ -415,6 +451,7 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  (optional=templinst)_ZNK7BluezQt7RequestIvE6cancelEv@Base 5.2.50
  (optional=templinst)_ZNK7BluezQt7RequestIvE6rejectEv@Base 5.2.50
  _ZNK7BluezQt9ObexAgent10metaObjectEv@Base 5.2.50
+ _ZTIN7BluezQt11MediaPlayerE@Base 5.2.50+git20150418.1234+15.04
  _ZTIN7BluezQt11ObexManagerE@Base 5.2.50
  _ZTIN7BluezQt11ObexSessionE@Base 5.2.50
  _ZTIN7BluezQt11PendingCallE@Base 5.2.50
@@ -434,6 +471,7 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZTIN7BluezQt7RequestIjEE@Base 5.2.50
  _ZTIN7BluezQt7RequestIvEE@Base 5.2.50
  _ZTIN7BluezQt9ObexAgentE@Base 5.2.50
+ _ZTSN7BluezQt11MediaPlayerE@Base 5.2.50+git20150418.1234+15.04
  _ZTSN7BluezQt11ObexManagerE@Base 5.2.50
  _ZTSN7BluezQt11ObexSessionE@Base 5.2.50
  _ZTSN7BluezQt11PendingCallE@Base 5.2.50
@@ -453,6 +491,7 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZTSN7BluezQt7RequestIjEE@Base 5.2.50
  _ZTSN7BluezQt7RequestIvEE@Base 5.2.50
  _ZTSN7BluezQt9ObexAgentE@Base 5.2.50
+ _ZTVN7BluezQt11MediaPlayerE@Base 5.2.50+git20150418.1234+15.04
  _ZTVN7BluezQt11ObexManagerE@Base 5.2.50
  _ZTVN7BluezQt11ObexSessionE@Base 5.2.50
  _ZTVN7BluezQt11PendingCallE@Base 5.2.50
