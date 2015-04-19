@@ -5,5 +5,6 @@ bluez-qt (4:5.2.95-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Plasma 5.3 beta
+  * Add upstream_udev-rules.diff
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 18 Apr 2015 14:39:44 +0200
