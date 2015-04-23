@@ -1,0 +1,34 @@
+commit c30ae5f68ce52b3a886c5adf5e1109ff0eac268a
+Author: David Rosca <nowrep@gmail.com>
+Date:   Fri Apr 10 18:29:40 2015 +0200
+
+    Install udev rule to get access to /dev/rfkill
+    
+    Default path is /lib/udev/rules.d and can be changed
+    with cmake -DUDEV_RULES_INSTALL_DIR=/udev/rules/path
+
+diff --git a/61-kde-bluetooth-rfkill.rules b/61-kde-bluetooth-rfkill.rules
+new file mode 100644
+index 0000000..d7d9650
+--- /dev/null
++++ b/61-kde-bluetooth-rfkill.rules
+@@ -0,0 +1,7 @@
++# Get access to /dev/rfkill for users
++# See https://bugzilla.redhat.com/show_bug.cgi?id=514798
++#
++# Simplified by Kay Sievers
++# https://bugzilla.redhat.com/show_bug.cgi?id=733326
++
++KERNEL=="rfkill", SUBSYSTEM=="misc", TAG+="uaccess"
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 43729bd..72d58da 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -76,4 +76,7 @@ install(FILES
+     DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}
+     COMPONENT Devel)
+ 
++set(UDEV_RULES_INSTALL_DIR /lib/udev/rules.d CACHE PATH "The location of udev rules")
++install(FILES 61-kde-bluetooth-rfkill.rules DESTINATION ${UDEV_RULES_INSTALL_DIR})
++
+ feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)

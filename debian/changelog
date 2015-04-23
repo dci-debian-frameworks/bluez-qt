@@ -1,5 +1,10 @@
-bluez-qt (5.2.50-0ubuntu1) UNRELEASED; urgency=medium
+bluez-qt (4:5.2.95-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
   * Initial release.
 
- -- Harald Sitter <sitter@kde.org>  Thu, 09 Apr 2015 12:16:26 +0200
+  [ Jonathan Riddell ]
+  * Plasma 5.3 beta
+  * Add upstream_udev-rules.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 18 Apr 2015 14:39:44 +0200
