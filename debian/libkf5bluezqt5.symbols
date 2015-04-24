@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.50+git20150418.1234+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 4:5.3.0+git20150423.1953 amd64 i386
 libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZN7BluezQt11MediaPlayer10setShuffleENS0_7ShuffleE@Base 5.2.50+git20150418.1234+15.04
  _ZN7BluezQt11MediaPlayer11fastForwardEv@Base 5.2.50+git20150418.1234+15.04
@@ -6,7 +6,7 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZN7BluezQt11MediaPlayer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50+git20150418.1234+15.04
  _ZN7BluezQt11MediaPlayer11qt_metacastEPKc@Base 5.2.50+git20150418.1234+15.04
  _ZN7BluezQt11MediaPlayer12setEqualizerENS0_9EqualizerE@Base 5.2.50+git20150418.1234+15.04
- _ZN7BluezQt11MediaPlayer12trackChangedERKNS0_5TrackE@Base 5.2.50+git20150418.1234+15.04
+ _ZN7BluezQt11MediaPlayer12trackChangedE14QSharedPointerINS_16MediaPlayerTrackEE@Base 4:5.3.0+git20150423.1953
  _ZN7BluezQt11MediaPlayer13repeatChangedENS0_6RepeatE@Base 5.2.50+git20150418.1234+15.04
  _ZN7BluezQt11MediaPlayer13statusChangedENS0_6StatusE@Base 5.2.50+git20150418.1234+15.04
  _ZN7BluezQt11MediaPlayer14shuffleChangedENS0_7ShuffleE@Base 5.2.50+git20150418.1234+15.04
@@ -107,6 +107,11 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZN7BluezQt14ObexObjectPushD0Ev@Base 5.2.50
  _ZN7BluezQt14ObexObjectPushD1Ev@Base 5.2.50
  _ZN7BluezQt14ObexObjectPushD2Ev@Base 5.2.50
+ _ZN7BluezQt16MediaPlayerTrackC1ERK4QMapI7QString8QVariantE@Base 4:5.3.0+git20150423.1953
+ _ZN7BluezQt16MediaPlayerTrackC2ERK4QMapI7QString8QVariantE@Base 4:5.3.0+git20150423.1953
+ _ZN7BluezQt16MediaPlayerTrackD0Ev@Base 4:5.3.0+git20150423.1953
+ _ZN7BluezQt16MediaPlayerTrackD1Ev@Base 4:5.3.0+git20150423.1953
+ _ZN7BluezQt16MediaPlayerTrackD2Ev@Base 4:5.3.0+git20150423.1953
  _ZN7BluezQt16ObexFileTransfer10deleteFileERK7QString@Base 5.2.50
  _ZN7BluezQt16ObexFileTransfer10listFolderEv@Base 5.2.50
  _ZN7BluezQt16ObexFileTransfer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50
@@ -380,6 +385,13 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZNK7BluezQt14InitManagerJob7managerEv@Base 5.2.50
  _ZNK7BluezQt14ObexObjectPush10metaObjectEv@Base 5.2.50
  _ZNK7BluezQt14ObexObjectPush10objectPathEv@Base 5.2.50
+ _ZNK7BluezQt16MediaPlayerTrack11trackNumberEv@Base 4:5.3.0+git20150423.1953
+ _ZNK7BluezQt16MediaPlayerTrack14numberOfTracksEv@Base 4:5.3.0+git20150423.1953
+ _ZNK7BluezQt16MediaPlayerTrack5albumEv@Base 4:5.3.0+git20150423.1953
+ _ZNK7BluezQt16MediaPlayerTrack5genreEv@Base 4:5.3.0+git20150423.1953
+ _ZNK7BluezQt16MediaPlayerTrack5titleEv@Base 4:5.3.0+git20150423.1953
+ _ZNK7BluezQt16MediaPlayerTrack6artistEv@Base 4:5.3.0+git20150423.1953
+ _ZNK7BluezQt16MediaPlayerTrack8durationEv@Base 4:5.3.0+git20150423.1953
  _ZNK7BluezQt16ObexFileTransfer10metaObjectEv@Base 5.2.50
  _ZNK7BluezQt16ObexFileTransfer10objectPathEv@Base 5.2.50
  _ZNK7BluezQt18InitObexManagerJob10metaObjectEv@Base 5.2.50
@@ -459,6 +471,7 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZTIN7BluezQt12ObexTransferE@Base 5.2.50
  _ZTIN7BluezQt14InitManagerJobE@Base 5.2.50
  _ZTIN7BluezQt14ObexObjectPushE@Base 5.2.50
+ _ZTIN7BluezQt16MediaPlayerTrackE@Base 4:5.3.0+git20150423.1953
  _ZTIN7BluezQt16ObexFileTransferE@Base 5.2.50
  _ZTIN7BluezQt18InitObexManagerJobE@Base 5.2.50
  _ZTIN7BluezQt3JobE@Base 5.2.50
@@ -479,6 +492,7 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZTSN7BluezQt12ObexTransferE@Base 5.2.50
  _ZTSN7BluezQt14InitManagerJobE@Base 5.2.50
  _ZTSN7BluezQt14ObexObjectPushE@Base 5.2.50
+ _ZTSN7BluezQt16MediaPlayerTrackE@Base 4:5.3.0+git20150423.1953
  _ZTSN7BluezQt16ObexFileTransferE@Base 5.2.50
  _ZTSN7BluezQt18InitObexManagerJobE@Base 5.2.50
  _ZTSN7BluezQt3JobE@Base 5.2.50
@@ -499,6 +513,7 @@ libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
  _ZTVN7BluezQt12ObexTransferE@Base 5.2.50
  _ZTVN7BluezQt14InitManagerJobE@Base 5.2.50
  _ZTVN7BluezQt14ObexObjectPushE@Base 5.2.50
+ _ZTVN7BluezQt16MediaPlayerTrackE@Base 4:5.3.0+git20150423.1953
  _ZTVN7BluezQt16ObexFileTransferE@Base 5.2.50
  _ZTVN7BluezQt18InitObexManagerJobE@Base 5.2.50
  _ZTVN7BluezQt3JobE@Base 5.2.50
