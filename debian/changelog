@@ -1,4 +1,4 @@
-bluez-qt (4:5.3.0-0ubuntu1) UNRELEASED; urgency=medium
+bluez-qt (5.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * Initial release.
