@@ -18,12 +18,12 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/bluez-qt.git
 Package: libkf5bluezqt-dev
 Section: libdevel
 Architecture: linux-any
-Depends: libkf5bluezqt5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5bluezqt6 (= ${binary:Version}), ${misc:Depends}
 Description: development files for bluez-qt
  This package provides all the necessary development headers for building
  software that uses the bluez-qt library.
 
-Package: libkf5bluezqt5
+Package: libkf5bluezqt6
 Architecture: linux-any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libkf5bluezqt-data (= ${source:Version}),
@@ -55,12 +55,12 @@ Description: data files for bluez-qt
  .
  This package contains the data files.
 
-Package: libkf5bluezqt5-dbg
+Package: libkf5bluezqt6-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5bluezqt5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5bluezqt6 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for bluez-qt
  bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
  .
