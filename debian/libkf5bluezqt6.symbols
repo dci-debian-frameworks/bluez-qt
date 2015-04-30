@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0+git20150429 amd64
+# SymbolsHelper-Confirmed: 5.3.0+git20150430.0044 amd64 i386
 libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZN7BluezQt11MediaPlayer10setShuffleENS0_7ShuffleE@Base 5.3.0+git20150429
  _ZN7BluezQt11MediaPlayer11fastForwardEv@Base 5.3.0+git20150429
@@ -177,7 +177,7 @@ libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZN7BluezQt6Device11qt_metacastEPKc@Base 5.3.0+git20150429
  _ZN7BluezQt6Device11rssiChangedEs@Base 5.3.0+git20150429
  _ZN7BluezQt6Device12stringToTypeERK7QString@Base 5.3.0+git20150429
- _ZN7BluezQt6Device12typeToStringENS0_10DeviceTypeE@Base 5.3.0+git20150429
+ _ZN7BluezQt6Device12typeToStringENS0_4TypeE@Base 5.3.0+git20150430.0044
  _ZN7BluezQt6Device12uuidsChangedERK11QStringList@Base 5.3.0+git20150429
  _ZN7BluezQt6Device13cancelPairingEv@Base 5.3.0+git20150429
  _ZN7BluezQt6Device13connectDeviceEv@Base 5.3.0+git20150429
@@ -192,7 +192,7 @@ libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZN7BluezQt6Device16disconnectDeviceEv@Base 5.3.0+git20150429
  _ZN7BluezQt6Device16staticMetaObjectE@Base 5.3.0+git20150429
  _ZN7BluezQt6Device17appearanceChangedEt@Base 5.3.0+git20150429
- _ZN7BluezQt6Device17deviceTypeChangedENS0_10DeviceTypeE@Base 5.3.0+git20150429
+ _ZN7BluezQt6Device17deviceTypeChangedENS0_4TypeE@Base 5.3.0+git20150430.0044
  _ZN7BluezQt6Device17disconnectProfileERK7QString@Base 5.3.0+git20150429
  _ZN7BluezQt6Device17remoteNameChangedERK7QString@Base 5.3.0+git20150429
  _ZN7BluezQt6Device18deviceClassChangedEj@Base 5.3.0+git20150429
