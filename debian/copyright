@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bluez-qt
-Source: ftp://ftp.kde.org/pub/kde/unstable/plasma/
+Source: git://anongit.kde.org/bluez-qt
 
 Files: *
        debian/*
