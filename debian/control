@@ -26,11 +26,11 @@ Description: development files for bluez-qt
 
 Package: libkf5bluezqt5
 Architecture: linux-any
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libkf5bluezqt-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Multi-Arch: same
 Description: Qt wrapper for bluez
  bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
  .
@@ -47,8 +47,8 @@ Description: QML wrapper for bluez
 
 Package: libkf5bluezqt-data
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: data files for bluez-qt
  bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
  .
