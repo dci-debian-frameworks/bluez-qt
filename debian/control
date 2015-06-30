@@ -19,7 +19,9 @@ Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/bluez-qt.git
 Package: libkf5bluezqt-dev
 Section: libdevel
 Architecture: linux-any
-Depends: libkf5bluezqt5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5bluezqt5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.4),
+         ${misc:Depends}
 Description: development files for bluez-qt
  This package provides all the necessary development headers for building
  software that uses the bluez-qt library.
