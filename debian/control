@@ -39,7 +39,7 @@ Description: Qt wrapper for bluez
  It is used by the KDE Bluetooth stack, BlueDevil.
 
 Package: qml-module-org-kde-bluezqt
-Architecture: any
+Architecture: linux-any
 Multi-arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: QML wrapper for bluez
@@ -61,7 +61,7 @@ Description: data files for bluez-qt
 Package: libkf5bluezqt5-dbg
 Priority: extra
 Section: debug
-Architecture: any
+Architecture: linux-any
 Multi-Arch: same
 Depends: libkf5bluezqt5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for bluez-qt

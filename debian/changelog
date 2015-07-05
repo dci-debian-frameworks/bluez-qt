@@ -1,5 +1,8 @@
 bluez-qt (5.3.1-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Make all the any binaries as linux-any. BlueZ is Linux-specific, so there
+    is no point trying to build this on non-Linux platforms.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Jul 2015 11:50:33 +0200
 
