@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:5.13.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.13.0 amd64 i386
 libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZN7BluezQt11MediaPlayer10setShuffleENS0_7ShuffleE@Base 5.3.0+git20150429
  _ZN7BluezQt11MediaPlayer11fastForwardEv@Base 5.3.0+git20150429
@@ -184,15 +184,15 @@ libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZN7BluezQt5Agent7releaseEv@Base 5.3.0+git20150429
  _ZN7BluezQt5AgentC1EP7QObject@Base 5.3.0+git20150429
  _ZN7BluezQt5AgentC2EP7QObject@Base 5.3.0+git20150429
- _ZN7BluezQt5Input11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:5.13.0
- _ZN7BluezQt5Input11qt_metacastEPKc@Base 4:5.13.0
- _ZN7BluezQt5Input16staticMetaObjectE@Base 4:5.13.0
- _ZN7BluezQt5Input20reconnectModeChangedENS0_13ReconnectModeE@Base 4:5.13.0
- _ZN7BluezQt5InputC1ERK7QStringRK4QMapIS1_8QVariantE@Base 4:5.13.0
- _ZN7BluezQt5InputC2ERK7QStringRK4QMapIS1_8QVariantE@Base 4:5.13.0
- _ZN7BluezQt5InputD0Ev@Base 4:5.13.0
- _ZN7BluezQt5InputD1Ev@Base 4:5.13.0
- _ZN7BluezQt5InputD2Ev@Base 4:5.13.0
+ _ZN7BluezQt5Input11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.13.0
+ _ZN7BluezQt5Input11qt_metacastEPKc@Base 5.13.0
+ _ZN7BluezQt5Input16staticMetaObjectE@Base 5.13.0
+ _ZN7BluezQt5Input20reconnectModeChangedENS0_13ReconnectModeE@Base 5.13.0
+ _ZN7BluezQt5InputC1ERK7QStringRK4QMapIS1_8QVariantE@Base 5.13.0
+ _ZN7BluezQt5InputC2ERK7QStringRK4QMapIS1_8QVariantE@Base 5.13.0
+ _ZN7BluezQt5InputD0Ev@Base 5.13.0
+ _ZN7BluezQt5InputD1Ev@Base 5.13.0
+ _ZN7BluezQt5InputD2Ev@Base 5.13.0
  _ZN7BluezQt6Device10setBlockedEb@Base 5.3.0+git20150429
  _ZN7BluezQt6Device10setTrustedEb@Base 5.3.0+git20150429
  _ZN7BluezQt6Device11iconChangedERK7QString@Base 5.3.0+git20150429
@@ -201,7 +201,7 @@ libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZN7BluezQt6Device11qt_metacastEPKc@Base 5.3.0+git20150429
  _ZN7BluezQt6Device11rssiChangedEs@Base 5.3.0+git20150429
  _ZN7BluezQt6Device11typeChangedENS0_4TypeE@Base 5.3.0+git20150508.0038
- _ZN7BluezQt6Device12inputChangedE14QSharedPointerINS_5InputEE@Base 4:5.13.0
+ _ZN7BluezQt6Device12inputChangedE14QSharedPointerINS_5InputEE@Base 5.13.0
  _ZN7BluezQt6Device12stringToTypeERK7QString@Base 5.3.0+git20150429
  _ZN7BluezQt6Device12typeToStringENS0_4TypeE@Base 5.3.0+git20150430.0044
  _ZN7BluezQt6Device12uuidsChangedERK11QStringList@Base 5.3.0+git20150429
@@ -430,9 +430,9 @@ libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZNK7BluezQt3Job9isRunningEv@Base 5.3.0+git20150429
  _ZNK7BluezQt5Agent10capabilityEv@Base 5.3.0+git20150429
  _ZNK7BluezQt5Agent10metaObjectEv@Base 5.3.0+git20150429
- _ZNK7BluezQt5Input10metaObjectEv@Base 4:5.13.0
- _ZNK7BluezQt5Input11toSharedPtrEv@Base 4:5.13.0
- _ZNK7BluezQt5Input13reconnectModeEv@Base 4:5.13.0
+ _ZNK7BluezQt5Input10metaObjectEv@Base 5.13.0
+ _ZNK7BluezQt5Input11toSharedPtrEv@Base 5.13.0
+ _ZNK7BluezQt5Input13reconnectModeEv@Base 5.13.0
  _ZNK7BluezQt6Device10appearanceEv@Base 5.3.0+git20150429
  _ZNK7BluezQt6Device10metaObjectEv@Base 5.3.0+git20150429
  _ZNK7BluezQt6Device10remoteNameEv@Base 5.3.0+git20150429
@@ -447,7 +447,7 @@ libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZNK7BluezQt6Device4nameEv@Base 5.3.0+git20150429
  _ZNK7BluezQt6Device4rssiEv@Base 5.3.0+git20150429
  _ZNK7BluezQt6Device4typeEv@Base 5.3.0+git20150508.0038
- _ZNK7BluezQt6Device5inputEv@Base 4:5.13.0
+ _ZNK7BluezQt6Device5inputEv@Base 5.13.0
  _ZNK7BluezQt6Device5uuidsEv@Base 5.3.0+git20150429
  _ZNK7BluezQt6Device7adapterEv@Base 5.3.0+git20150429
  _ZNK7BluezQt6Device7addressEv@Base 5.3.0+git20150429
@@ -508,7 +508,7 @@ libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZTIN7BluezQt21ObexFileTransferEntryE@Base 5.3.0+git20150508.0038
  _ZTIN7BluezQt3JobE@Base 5.3.0+git20150429
  _ZTIN7BluezQt5AgentE@Base 5.3.0+git20150429
- _ZTIN7BluezQt5InputE@Base 4:5.13.0
+ _ZTIN7BluezQt5InputE@Base 5.13.0
  _ZTIN7BluezQt6DeviceE@Base 5.3.0+git20150429
  _ZTIN7BluezQt7AdapterE@Base 5.3.0+git20150429
  _ZTIN7BluezQt7ManagerE@Base 5.3.0+git20150429
@@ -531,7 +531,7 @@ libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZTSN7BluezQt21ObexFileTransferEntryE@Base 5.3.0+git20150508.0038
  _ZTSN7BluezQt3JobE@Base 5.3.0+git20150429
  _ZTSN7BluezQt5AgentE@Base 5.3.0+git20150429
- _ZTSN7BluezQt5InputE@Base 4:5.13.0
+ _ZTSN7BluezQt5InputE@Base 5.13.0
  _ZTSN7BluezQt6DeviceE@Base 5.3.0+git20150429
  _ZTSN7BluezQt7AdapterE@Base 5.3.0+git20150429
  _ZTSN7BluezQt7ManagerE@Base 5.3.0+git20150429
@@ -554,7 +554,7 @@ libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZTVN7BluezQt21ObexFileTransferEntryE@Base 5.3.0+git20150508.0038
  _ZTVN7BluezQt3JobE@Base 5.3.0+git20150429
  _ZTVN7BluezQt5AgentE@Base 5.3.0+git20150429
- _ZTVN7BluezQt5InputE@Base 4:5.13.0
+ _ZTVN7BluezQt5InputE@Base 5.13.0
  _ZTVN7BluezQt6DeviceE@Base 5.3.0+git20150429
  _ZTVN7BluezQt7AdapterE@Base 5.3.0+git20150429
  _ZTVN7BluezQt7ManagerE@Base 5.3.0+git20150429
