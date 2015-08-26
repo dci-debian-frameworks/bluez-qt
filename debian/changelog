@@ -1,6 +1,24 @@
 bluez-qt (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Aug 2015 11:34:53 +0100
+
+bluez-qt (5.3.1-1) unstable; urgency=medium
+
+  * Initial Debian release.
+  * New upstream release (5.3.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 09:50:36 +0200
+
+bluez-qt (5.3.0-0ubuntu1) UNRELEASED; urgency=medium
+
   [ Harald Sitter ]
   * Initial release.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Aug 2015 11:34:53 +0100
+  [ Jonathan Riddell ]
+  * Plasma 5.3 beta
+  * Add upstream_udev-rules.diff
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Apr 2015 16:21:17 +0200
