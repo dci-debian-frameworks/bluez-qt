@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 5.2.50 amd64
-libKF5BluezQt.so.5 libkf5bluezqt5 #MINVER#
+libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
  _ZN7BluezQt11ObexManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.50
  _ZN7BluezQt11ObexManager11qt_metacastEPKc@Base 5.2.50
  _ZN7BluezQt11ObexManager12startServiceEv@Base 5.2.50

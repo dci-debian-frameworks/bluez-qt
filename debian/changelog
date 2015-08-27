@@ -7,6 +7,7 @@ bluez-qt (5.13.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release (5.12.0).
   * New upstream release (5.13.0).
+  * Follow upstream soversion bump.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 15:25:55 +0200
 
