@@ -6,16 +6,9 @@ Files: *
 Copyright: 2014, Alejandro Fiestas Olivares <afiestas@kde.org>
            2013, Daniel Schaal <farbing@web.de>
            2014-2015, David Rosca <nowrep@gmail.com>
-License: LGPL-2.1+3+KDEeV
-
-Files: tests/adaptersreceiver.cpp
-       tests/adaptersreceiver.h
-       tests/devicereceiver.cpp
-       tests/devicereceiver.h
-Copyright: 2014, David Rosca <nowrep@gmail.com>
            2010-2011, Rafael Fernández López <ereslibre@kde.org>
            2010-2011, UFO Coders <info@ufocoders.com>
-License: LGPL-2+
+License: LGPL-2.1+3+KDEeV
 
 Files: COPYING.LIB
 Copyright: 1991-1999, Free Software Foundation, Inc
