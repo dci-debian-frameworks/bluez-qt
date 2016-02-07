@@ -56,14 +56,3 @@ Description: data files for bluez-qt
  It is used by the KDE Bluetooth stack, BlueDevil.
  .
  This package contains the data files.
-
-Package: libkf5bluezqt6-dbg
-Priority: extra
-Section: debug
-Architecture: linux-any
-Multi-Arch: same
-Depends: libkf5bluezqt6 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for bluez-qt
- bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
- .
- This package contains the debug symbols.
