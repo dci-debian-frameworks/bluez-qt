@@ -11,6 +11,6 @@ xvfb-run -a --server-args="-screen 0 1024x768x24+32" \
 
 DISPLAY=:2 openbox & openbox_pid=$!
 
-trap "{ kill ${openbox_pid};kill ${x_pid}; rm -rf debian/tests.home }" EXIT
+trap "kill ${openbox_pid};kill ${x_pid}; rm -rf debian/tests.home" EXIT
 
 DISPLAY=:2 dbus-launch --exit-with-session dh_auto_test
