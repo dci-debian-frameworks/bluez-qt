@@ -9,7 +9,9 @@ mkdir "$HOME"/.config || true
 xvfb-run -a --server-args="-screen 0 1024x768x24+32" \
     Xephyr -reset -br -screen 1024x768 :2 & x_pid=$!
 
+sleep 1
 DISPLAY=:2 openbox & openbox_pid=$!
+sleep 1
 
 trap "kill ${openbox_pid};kill ${x_pid}; rm -rf debian/tests.home" EXIT
 
