@@ -13,6 +13,6 @@ sleep 1
 DISPLAY=:2 openbox & openbox_pid=$!
 sleep 1
 
-trap "kill ${openbox_pid};kill ${x_pid}; rm -rf debian/tests.home" EXIT
+trap "kill ${openbox_pid}; kill ${x_pid}; rm -rf debian/tests.home" EXIT
 
 DISPLAY=:2 dbus-launch --exit-with-session dh_auto_test
