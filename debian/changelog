@@ -1,3 +1,14 @@
+bluez-qt (5.20.0-1~1.gbpb0964f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b0964fb4efb95a0eda8a63f70505dd598f37a512 **
+
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 23 Mar 2016 22:38:59 +0100
+
 bluez-qt (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
