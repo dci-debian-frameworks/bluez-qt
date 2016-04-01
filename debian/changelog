@@ -1,6 +1,6 @@
-bluez-qt (5.20.0-1~10.gbp8c49c4) UNRELEASED; urgency=medium
+bluez-qt (5.20.0-1~11.gbp5eb63f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8c49c4e3f58eebdd2097a926b8195822ae9ab763 **
+  ** SNAPSHOT build @5eb63fc2ba2dde62c03f1c4a36d3f71dbc8fa3b0 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -15,8 +15,9 @@ bluez-qt (5.20.0-1~10.gbp8c49c4) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * Update acc test script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:25:14 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:25:25 +0200
 
 bluez-qt (5.19.0-1) experimental; urgency=medium
 
