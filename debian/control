@@ -5,15 +5,15 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
                pkg-kde-tools (>> 0.15.15),
                qml-module-qttest,
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/bluez-qt
-Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/bluez-qt.git
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/bluez-qt.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/bluez-qt.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/bluez-qt.git
 
 Package: libkf5bluezqt-dev
 Section: libdevel
@@ -56,14 +56,3 @@ Description: data files for bluez-qt
  It is used by the KDE Bluetooth stack, BlueDevil.
  .
  This package contains the data files.
-
-Package: libkf5bluezqt6-dbg
-Priority: extra
-Section: debug
-Architecture: linux-any
-Multi-Arch: same
-Depends: libkf5bluezqt6 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for bluez-qt
- bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
- .
- This package contains the debug symbols.
