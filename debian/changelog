@@ -1,3 +1,11 @@
+bluez-qt (5.22.0-1~1.gbp31c9d6) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @31c9d6e346b57e4b9e0c6afa70549dd32dd48fca **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 18:25:30 +0200
+
 bluez-qt (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
