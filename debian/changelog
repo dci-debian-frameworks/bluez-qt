@@ -1,3 +1,11 @@
+bluez-qt (5.23.0-2~1.gbpfbe491) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @fbe491eadf7ed175b056aa955dc0681d546085cb **
+
+  * Update symbols files from buildds logs (5.23.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 18 Jun 2016 12:25:25 +0200
+
 bluez-qt (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
