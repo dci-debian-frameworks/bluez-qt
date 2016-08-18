@@ -1,13 +1,13 @@
-bluez-qt (5.25.0-1~2.gbp066893) UNRELEASED; urgency=medium
+bluez-qt (5.25.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @066893b50aa9e04c82b7fc752a29bfb179f5cff5 **
-
+  [ Automatic packaging ]
   * Update symbols files from buildds logs (5.23.0-1).
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
   * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 16 Aug 2016 15:24:18 +0200
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:18:18 +0200
 
 bluez-qt (5.23.0-1) unstable; urgency=medium
 
