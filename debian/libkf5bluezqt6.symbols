@@ -1,5 +1,6 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.25.0 amd64
 libKF5BluezQt.so.6 libkf5bluezqt6 #MINVER#
+ (optional=external)_ZN10QByteArray7reserveEi@Base 5.23.0
  _ZN7BluezQt11MediaPlayer10setShuffleENS0_7ShuffleE@Base 5.13.0
  _ZN7BluezQt11MediaPlayer11fastForwardEv@Base 5.13.0
  _ZN7BluezQt11MediaPlayer11nameChangedERK7QString@Base 5.13.0
