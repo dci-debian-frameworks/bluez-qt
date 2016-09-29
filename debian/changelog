@@ -4,6 +4,9 @@ bluez-qt (5.26.0-1) unstable; urgency=medium
   * Update symbols files with the buildds results
   * Update build-deps and deps with the info from cmake
 
+  [ Maximiliano Curia ]
+  * Replace dbus-launch by dbus-run-session in tests.
+
  -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:54:25 +0200
 
 bluez-qt (5.25.0-1) unstable; urgency=medium
