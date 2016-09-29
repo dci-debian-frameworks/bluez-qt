@@ -1,12 +1,10 @@
-bluez-qt (5.26.0-1~1.gbp46d1a4) UNRELEASED; urgency=medium
+bluez-qt (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @46d1a4101bed57db44d102a7504da6fbfca1e3fd **
-
+  [ Automatic packaging ]
   * Update symbols files with the buildds results
   * Update build-deps and deps with the info from cmake
-  * Update symbols files with the buildds logs.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 18:29:43 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:54:25 +0200
 
 bluez-qt (5.25.0-1) unstable; urgency=medium
 
