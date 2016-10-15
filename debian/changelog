@@ -1,11 +1,13 @@
-bluez-qt (5.27.0-1~1.gbp0d5ee8) UNRELEASED; urgency=medium
+bluez-qt (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @0d5ee88d7cc1ab1989b521ddd09f34d81e3ff637 **
-
+  [ Automatic packaging ]
   * Update symbols files with the buildds logs.
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 18:25:23 +0200
+  [ Maximiliano Curia ]
+  * New upstream relase (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 16:47:05 +0200
 
 bluez-qt (5.26.0-1) unstable; urgency=medium
 
