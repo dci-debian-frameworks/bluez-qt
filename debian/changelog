@@ -1,3 +1,14 @@
+bluez-qt (5.27.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update symbols files with the buildds logs.
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * New upstream relase (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 16:47:05 +0200
+
 bluez-qt (5.27.0-0neon) xenial; urgency=medium
 
   * New release
