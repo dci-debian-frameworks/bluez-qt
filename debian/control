@@ -51,6 +51,7 @@ Description: documentation files for bluez-qt
  It is used by the KDE Bluetooth stack, BlueDevil.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5bluezqt6
 Architecture: linux-any
