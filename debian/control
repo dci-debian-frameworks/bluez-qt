@@ -13,22 +13,44 @@ Build-Depends: cmake (>= 3.0~),
                qml-module-qttest,
                qtbase5-dev (>= 5.7.0~),
                qtdeclarative5-dev (>= 5.7.0~),
-               qttools5-dev-tools
+               qttools5-dev-tools,
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/kde/workspace/bluez-qt
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/bluez-qt.git
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/bluez-qt.git
+
+Package: libkf5bluezqt-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: data files for bluez-qt
+ bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
+ .
+ It is used by the KDE Bluetooth stack, BlueDevil.
+ .
+ This package contains the data files.
 
 Package: libkf5bluezqt-dev
 Section: libdevel
 Architecture: linux-any
 Depends: libkf5bluezqt6 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Recommends: libkf5bluezqt-doc (= ${source:Version})
 Description: development files for bluez-qt
  This package provides all the necessary development headers for building
  software that uses the bluez-qt library.
+
+Package: libkf5bluezqt-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: documentation files for bluez-qt
+ bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
+ .
+ It is used by the KDE Bluetooth stack, BlueDevil.
+ .
+ This package contains the qch documentation files.
 
 Package: libkf5bluezqt6
 Architecture: linux-any
@@ -36,7 +58,7 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libkf5bluezqt-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: Qt wrapper for bluez
  bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
  .
@@ -50,25 +72,3 @@ Description: QML wrapper for bluez
  bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
  .
  It is used by the KDE Bluetooth stack, BlueDevil.
-
-Package: libkf5bluezqt-data
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: data files for bluez-qt
- bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
- .
- It is used by the KDE Bluetooth stack, BlueDevil.
- .
- This package contains the data files.
-
-Package: libkf5bluezqt-doc
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: documentation files for bluez-qt
- bluez-qt is a Qt-style library for accessing the bluez Bluetooth stack.
- .
- It is used by the KDE Bluetooth stack, BlueDevil.
- .
- This package contains the qch documentation files.
