@@ -1,6 +1,6 @@
 bluez-qt (5.41.0-1~1) UNRELEASED; urgency=medium
 
-  * New upstream release (5.41.0).
+  * New upstream release (5.41.0). (Closes: #860269)
   * Update build-deps and deps with the info from cmake
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 09:50:55 -0300
